@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Img} from './components/Img.styled.tsx';
 import {H1} from './components/H1.styled.tsx';
 import {P} from './components/P.styled.tsx';
+import {Button, SaveButton} from './components/Button.styled.tsx';
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
                 <Img />
                 <H1>Headline</H1>
                 <P>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</P>
+                <Button>See more</Button>
+                <SaveButton>Save</SaveButton>
+
             </Box>
         </div>
     );
@@ -25,6 +29,7 @@ const Box = styled.div`
     height: 350px;
     border-radius: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 `;
