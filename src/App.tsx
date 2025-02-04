@@ -1,18 +1,19 @@
-import './App.css'
+import './App.css';
 import styled from 'styled-components';
+import {Img} from './components/Img.styled.tsx';
 
 function App() {
 
-  return (
-    <div className={'App'}>
-        <Box>
-
-        </Box>
-    </div>
-  )
+    return (
+        <div className={'App'}>
+            <Box>
+                <Img />
+            </Box>
+        </div>
+    );
 }
 
-export default App
+export default App;
 
 
 const Box = styled.div`
@@ -22,5 +23,6 @@ const Box = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
+`;
+
 
