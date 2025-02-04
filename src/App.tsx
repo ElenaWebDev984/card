@@ -1,6 +1,7 @@
 import './App.css';
 import styled from 'styled-components';
 import {Img} from './components/Img.styled.tsx';
+import {H1} from './components/H1.styled.tsx';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
         <div className={'App'}>
             <Box>
                 <Img />
+                <H1>Headline</H1>
             </Box>
         </div>
     );
